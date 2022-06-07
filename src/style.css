@@ -1,0 +1,107 @@
+body {
+    height: 100%;
+}
+
+#webpageHeading {
+    text-align: left;
+    font: normal normal normal 80px/121px Arial Black;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 15px;
+    top: 60px;
+    left: 100px;
+    width: 721px;
+    height: 110px;
+    
+}
+
+.container {
+    /* 2560 x 1600 */
+    background: #E6DDC4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    align-self: center;
+    margin: 29px;
+    width: 1200px;
+    height: 710px;
+}
+
+#signInBox {
+    margin-left: 25%;
+    margin-right: 25%;
+
+    margin-top: 100px;
+    height: 300px;
+    width: 500px;
+    background: #F8F7F5D9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 20px;
+}
+
+#logInform{
+    align-items: center;
+}
+
+
+
+#signInFeilds{
+    align-items: center;
+}
+
+#informationCollectionForm {
+    text-align: center;
+    height: 240px;
+    width: 600px;
+    background: #F8F7F5D9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 30px;
+    margin: 6%
+}
+
+.heading{
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 30px;
+
+    top: 308px;
+    left: 627px;
+    width: 667px;
+    height: 70px;
+
+}
+
+.info{
+    color: #678983;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.enter{
+    margin-top: 30px ;
+    width: 100px;
+    height: 30px;;
+    outline-color: #707070;
+    outline-width: 2px;
+    background-color: #F8F7F5D9;
+    padding: 2px;
+    font-family: Arial;
+    
+}
+
+.enter:hover{
+    outline-width: 0px;
+    background-color: #181D31;
+    color: #FFFFFF;
+}
+
+#result{
+    font: normal normal normal 17px Arial Black;
+    color: #707070;
+}
+
+#resultLabel{
+    font: normal normal normal 17px Arial Black;
+    color: #707070;
+}

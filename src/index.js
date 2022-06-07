@@ -1,17 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+function handleClick(event){
+  event.preventDefault();
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+  // creates a new variable which stores the value in
+  let debt = document.getElementById('debt').value;
+  let months = document.getElementById('monthly').value;
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  let val = debt/months;
+  document.getElementById('result').innerHTML=val;
+  console.log(val);
+}
