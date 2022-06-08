@@ -1,0 +1,70 @@
+
+body {
+    background-color: #cce8dc;
+}
+
+form  { 
+    display: table; 
+    padding: 5px;  
+    margin: 5px;   
+}
+p { 
+    display: table-row; 
+    margin: 5px;
+    padding: 5px;  
+ }
+label { 
+    display: table-row; 
+    vertical-align: top;
+    padding-right: 10px;
+    margin: 5px;
+}
+input { 
+    display: table-row; 
+    width: 269px;
+}
+textarea { 
+    display: table-row; 
+}
+
+button {
+    border-width: 1px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background: #41d5cc;
+    position: relative;
+    border: 1px solid black
+}
+
+button:hover {
+        border-width: 1px;
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        background: #fcc9cc;
+        position: relative;
+        border: 1px solid black;
+}
+
+
+.NavBar {
+    border-radius: 5px;
+    background-color: #069c99;
+    width: 100%;
+    margin: 10px;
+    height: 45px;
+}
+
+#headerText {
+    color: white;
+    font-size: 36px;
+    font-style: bold;
+    margin: 20px;
+    text-decoration: none;
+    position: relative;
+} 
+
+#headerText:hover {
+    color: #fcc9cc;
+}

@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Getting started with the app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To get started, clone a copy of the repo and run these commands:
 
-## Available Scripts
-
-In the project directory, you can run:
+### `npm install`
+This command installs the packages/dependencies required to make the project work. Sometimes you need additional packages to do the work for you rather than writing something from scratch.
 
 ### `npm start`
+This command starts the app - you will see the app compile and run in the terminal. You can hit "ctrl + c" in the terminal to stop the app from running, and then you can continue on running commands in the terminal. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+When you run the app, the a new tab should pop up with the app. If you cannot find it, navigate to http://localhost:3000/ in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Basic git commands to work in this project
 
-### `npm test`
+## Creating a branch
+To create a branch, run these commands. If something is enclosed in <>, you need to add in your own text to run the command
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Check which branch you are on - you should never work directly off master
+```console
+git status
+```
 
-### `npm run build`
+2. Checkout master branch
+```console
+git checkout master
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Pull changes from master before creating your new branch (this reduces merge conflicts down the line)
+```console
+git pull origin master
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Now you are ready to make your branch! Make sure you add in a unique, descriptive branch name
+```console
+git checkout -b <your-branch-name>
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Pushing your branch to to project
+1. Check you are on your branch and not master
+```console
+git status
+```
 
-### `npm run eject`
+2. Add all your changes (this adds in changes from every file you edited)
+```console
+git add .
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Commit the change (this saves on your local machine but does not push to the project)
+```console
+git commit -m "add your message between the quotes"
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Push the changes to the project
+```console
+git push
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
