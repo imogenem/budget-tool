@@ -1,4 +1,5 @@
 import './App.css';
+import { CustomInputsForm } from './components/CustomInputsForm';
 
 import LoanInputsForm from "./components/LoanInputsForm";
 import NavBar from "./components/NavBar";
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
         <NavBar />
         <LoanInputsForm />
+        <CustomInputsForm />
     </div>
   );
 }
