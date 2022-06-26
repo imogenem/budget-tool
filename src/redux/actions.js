@@ -1,13 +1,6 @@
-export const add_card = (recipe) => {
+export const display_loan_inputs = (inputs) => {
 	return {
-		type: 'ADD_RECIPE_CARD',
-		payload: recipe,
-	};
-};
-
-export const delete_card = (recipe) => {
-	return {
-		type: 'DELETE_RECIPE_CARD',
-		payload: recipe,
+		type: 'DISPLAY_LOAN_INPUTS',
+		payload: inputs,
 	};
 };
