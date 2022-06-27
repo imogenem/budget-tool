@@ -28,7 +28,7 @@ export default function CarInputsForm(props) {
 
   return (
     <>
-    <h2>Enter car loan information</h2>
+      <h2>Enter car loan information</h2>
       <Form>
         <Form.Group>
           <Form.Label>Price of Vehicle</Form.Label>
